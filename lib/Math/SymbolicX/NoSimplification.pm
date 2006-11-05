@@ -17,7 +17,7 @@ our %EXPORT_TAGS = ( 'all' => [ qw(
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw();
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 # This is what we do instead of simplifying: Cloning
 sub _Minimum_Simplification_Sub  {
